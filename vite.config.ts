@@ -21,6 +21,7 @@ export default defineConfig((mode) => {
   //   };
   //   console.log("development mode", server);
   // }
+  // else if(curMode === "production") {}
   return {
     plugins: [vue()],
     server,
